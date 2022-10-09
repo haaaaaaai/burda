@@ -1,0 +1,117 @@
+    .header {
+        // .header__up-row
+        &__up-row {
+            background: #000000;
+        }
+        // .header__container
+        &__container {
+            width: 1142px;
+            padding: 0 10px;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        // .header__down-row
+        &__down-row {
+            background: #0F0F0F;
+        }
+    }
+    
+    .contact {
+        &__parent {
+            align-items: center;
+            height: 44px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__item {
+            display: flex;
+        }
+        // .contact__phone-img
+        &__phone-img {
+            margin-right: 18px;
+        }
+        // .contact__phone
+        &__phone {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #969696;
+        }
+        // .contact__login-img
+        &__login-img {
+            margin-right: 14px;
+        }
+        // .contact__login
+        &__login {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: right;
+            color: #969696;
+            text-decoration: none;
+        }
+    }
+    
+    .nav {
+        // .nav__parent
+        &__parent {
+            display: flex;
+            justify-content: space-between;
+        }
+        // .nav__item
+        &__item {
+            display: flex;
+            align-items: center;
+        }
+        // .nav__logo
+        &__logo {
+            font-family: 'Post No Bills Jaffna';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 54px;
+            color: #FFFFFF;
+        }
+        // .nav__menu
+        &__menu {}
+        // .nav__buy
+        &__buy {
+            margin-left: 41px;
+        }
+        // .nav__search
+        &__search {
+            margin-left: 44px;
+        }
+    }
+    
+    .menu {
+        display: flex;
+        li {
+            height: 80px;
+        }
+        // .menu__item
+        &__item {
+            transition: all 1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+            color: #969696;
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 0 20px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+                background: #1F1F1F;
+                color: white;
+            }
+        }
+    }
