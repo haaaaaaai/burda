@@ -69,7 +69,7 @@
         }
         // .nav__logo
         &__logo {
-            font-family: 'Post No Bills Jaffna';
+            font-family: 'Raleway';
             font-style: normal;
             font-weight: 700;
             font-size: 36px;
@@ -113,5 +113,65 @@
                 background: #1F1F1F;
                 color: white;
             }
+        }
+    }
+    
+    .main {}
+    
+    .logo {
+        background-image: url(img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 810px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // .logo_text
+        &_text {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            /* or 24px */
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            width: 730px;
+        }
+        // .logo__container
+        &__container {
+            width: 320px;
+            height: 320px;
+            border: solid 4px white;
+            margin-bottom: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        // .logo__header
+        &__header {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 96px;
+            text-align: center;
+            border-bottom: 2px solid white;
+            margin-bottom: 7px;
+            color: #FFFFFF;
+        }
+        // .logo__location
+        &__location {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
         }
     }
